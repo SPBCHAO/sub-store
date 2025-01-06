@@ -25,6 +25,15 @@ proxy-groups:
       - ss-天翼佛山-yxvm
       - KN4
       - mkc黑五-ss
+  - name: AI CHATGPT
+    type: select
+    proxies:
+      - 🔰 节点选择
+      - ♻️ 自动选择
+      - 🎯 全球直连
+      - ss-天翼佛山-yxvm
+      - KN4
+      - mkc黑五-ss
   - name: 🎥 NETFLIX
     type: select
     proxies:
@@ -9097,6 +9106,22 @@ rules:
   - DOMAIN-SUFFIX,yuanchengxiezuo.com,🛑 全球拦截
   - DOMAIN-SUFFIX,zbrushcn.com,🛑 全球拦截
   - DOMAIN-SUFFIX,zhzzx.com,🛑 全球拦截
+  - DOMAIN-KEYWORD,openai,AI CHATGPT
+  - DOMAIN-SUFFIX,auth0.com,AI CHATGPT
+  - DOMAIN-SUFFIX,challenges.cloudflare.com,AI CHATGPT
+  - DOMAIN-SUFFIX,chatgpt.com,AI CHATGPT
+  - DOMAIN-SUFFIX,client-api.arkoselabs.com,AI CHATGPT
+  - DOMAIN-SUFFIX,events.statsigapi.net,AI CHATGPT
+  - DOMAIN-SUFFIX,featuregates.org,AI CHATGPT
+  - DOMAIN-SUFFIX,identrust.com,AI CHATGPT
+  - DOMAIN-SUFFIX,intercom.io,AI CHATGPT
+  - DOMAIN-SUFFIX,intercomcdn.com,AI CHATGPT
+  - DOMAIN-SUFFIX,oaistatic.com,AI CHATGPT
+  - DOMAIN-SUFFIX,oaiusercontent.com,AI CHATGPT
+  - DOMAIN-SUFFIX,openai.com,AI CHATGPT
+  - DOMAIN-SUFFIX,openaiapi-site.azureedge.net,AI CHATGPT
+  - DOMAIN-SUFFIX,sentry.io,AI CHATGPT
+  - DOMAIN-SUFFIX,stripe.com,AI CHATGPT
   - DOMAIN-SUFFIX,netflix.com,🎥 NETFLIX
   - DOMAIN-SUFFIX,netflix.net,🎥 NETFLIX
   - DOMAIN-SUFFIX,nflxext.com,🎥 NETFLIX
