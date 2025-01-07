@@ -170,6 +170,7 @@ rules:
   - RULE-SET,netflix_domain,🎥 NETFLIX
   - RULE-SET,disney_domain,🎥 Disney
   - RULE-SET,paypal_domain,💶 PayPal
+  - DOMAIN-SUFFIX,nodeseek.com,🚀 节点选择
   - RULE-SET,geolocation-!cn,🚀 节点选择
   - RULE-SET,cn_domain,🎯 全球直连
   - RULE-SET,google_ip,🍀 Google,no-resolve
