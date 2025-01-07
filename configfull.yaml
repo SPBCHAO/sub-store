@@ -166,7 +166,8 @@ rules:
   - RULE-SET,speedtest_domain,✈️ Speedtest
   - RULE-SET,telegram_domain,📲 Telegram
   - RULE-SET,netflix_domain,🎥 NETFLIX
-  - RULE-SET,disney_domain,🎥 Disney
+  - RULE-SET,disney_domain,🎥 Disney   geo/geosite/tvb.mrs
+  - RULE-SET,tvb_domain,🎥 TVB
   - RULE-SET,paypal_domain,💶 PayPal
   - RULE-SET,geolocation-!cn,🚀 节点选择
   - RULE-SET,cn_domain,🎯 全球直连
@@ -190,6 +191,7 @@ rule-providers:
   telegram_domain: {!!merge <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/telegram.mrs"}
   netflix_domain: {!!merge <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/netflix.mrs"}
   disney_domain: {!!merge <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/disney.mrs"}
+  tvb_domain: {!!merge <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/tvb.mrs"}
   paypal_domain: {!!merge <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/paypal.mrs"}
   onedrive_domain: {!!merge <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/onedrive.mrs"}
   microsoft_domain: {!!merge <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/microsoft.mrs"}
