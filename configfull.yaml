@@ -137,7 +137,7 @@ proxy-groups:
   - {name: 🎥 TVB,!!merge <<: *pr}
   - {name: 🎥 NETFLIX,!!merge <<: *pr}
   - {name: 🎥 Disney,!!merge <<: *pr}
-  - {name: 🎥 NBA,!!merge <<: *pr}
+  - {name: 🎥 NBA, type: select, include-all: true}
   - {name: ✈️ Speedtest,!!merge <<: *pr}
   - {name: 💶 PayPal,!!merge <<: *pr}
   - {name: 🍎 Apple, type: select, proxies: [🟢 直连, 🚀 节点选择]}
