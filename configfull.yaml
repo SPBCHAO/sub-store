@@ -137,7 +137,7 @@ proxy-groups:
   - {name: 🎥 TVB,!!merge <<: *pr}
   - {name: 🎥 NETFLIX,!!merge <<: *pr}
   - {name: 🎥 Disney,!!merge <<: *pr}
-  - name: 🎥 NETFLIX
+  - name: 🎥 NBA
     type: select
     proxies:
       - 🔰 节点选择
@@ -175,6 +175,7 @@ rules:
   - RULE-SET,tvb_domain,🎥 TVB
   - RULE-SET,netflix_domain,🎥 NETFLIX
   - RULE-SET,disney_domain,🎥 Disney
+  - RULE-SET,cn_domain,🎥 NBA
   - RULE-SET,paypal_domain,💶 PayPal
   - DOMAIN-SUFFIX,nodeseek.com,🚀 节点选择
   - RULE-SET,geolocation-!cn,🚀 节点选择
